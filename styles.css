@@ -9,16 +9,56 @@ body {
     grid-template-columns: 15% 85%;
     grid-template-rows: 20% 80%;
 }
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
 .header {
-    background-color: aquamarine;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 60% 40%;
 }
 
 .main-content {
-    background-color: blueviolet;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 70% 30%;
 }
 
 .sidebar {
     background-color: salmon;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.search-bar-container {
+    background-color:lawngreen;
+}
+
+.auxiliar-button-container {
+    background-color: blueviolet;
+}
+
+.main-profile-container {
+    background-color: aquamarine;
+}
+
+.button-menu-container {
+    background-color:goldenrod ;
+}
+
+.project-container {
+    background-color: olive;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.announcement-container {
+    background-color:firebrick;
+}
+
+.trending-container {
+    background-color:violet;
 }
