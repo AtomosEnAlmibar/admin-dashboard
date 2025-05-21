@@ -22,6 +22,7 @@ svg {
 }
 
 .main-content {
+    height: 95%;
     display: grid;
     gap: 0px;
     grid-template-columns: 70% 30%;
@@ -61,4 +62,22 @@ svg {
 
 .trending-container {
     background-color:violet;
+}
+
+.project-container-title {
+    height: 3%;
+}
+
+.project-grid {
+    height: 97%;
+    /* position: relative;
+    display: grid;
+    row-gap: 3%;
+    column-gap: 5%; */
+}
+
+.project-item {
+    background-color:blanchedalmond ;
+    display: flex;
+    flex-direction: column;
 }
