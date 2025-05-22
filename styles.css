@@ -26,6 +26,7 @@ svg {
     display: grid;
     gap: 0px;
     grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr 1fr;
 }
 
 .sidebar {
@@ -70,14 +71,21 @@ svg {
 
 .project-grid {
     height: 97%;
-    /* position: relative;
     display: grid;
     row-gap: 3%;
-    column-gap: 5%; */
+    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .project-item {
     background-color:blanchedalmond ;
     display: flex;
     flex-direction: column;
+}
+
+.trending-item {
+    display: flex;
+    background-color: lightslategrey;
+    align-items: center;
+    justify-content: center;
 }
