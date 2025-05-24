@@ -19,6 +19,7 @@ svg {
     display: grid;
     gap: 0px;
     grid-template-columns: 60% 40%;
+    grid-template-rows: 40% 60%;
 }
 
 .main-content {
@@ -35,20 +36,42 @@ svg {
     grid-row-end: 3;
 }
 
+.dashboard-title {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.dashboard-menu {
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
 .search-bar-container {
     background-color:lawngreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .auxiliar-button-container {
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-profile-container {
     background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-menu-container {
-    background-color:goldenrod ;
+    background-color:goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-container {
@@ -59,10 +82,14 @@ svg {
 
 .announcement-container {
     background-color:firebrick;
+    display: grid;
+    place-items: center;
 }
 
 .trending-container {
     background-color:violet;
+    display: grid;
+    place-items: center;
 }
 
 .project-container-title {
@@ -83,9 +110,21 @@ svg {
     flex-direction: column;
 }
 
+.announcement-item {
+    display: flex;
+    background-color:midnightblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .trending-item {
     display: flex;
     background-color: lightslategrey;
     align-items: center;
     justify-content: center;
+}
+
+.project-button-list {
+    margin-left: auto;
 }
