@@ -8,6 +8,7 @@ body {
     gap: 0px;
     grid-template-columns: 15% 85%;
     grid-template-rows: 20% 80%;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 svg {
@@ -50,7 +51,21 @@ svg {
     background-color:lawngreen;
     display: flex;
     align-items: center;
-    justify-content: center;
+
+    .header-icon {
+        width: 2em;
+        height: 2em;
+        margin-left: 6em;
+    }
+    
+    input {
+        margin-left: 2.5em;
+        background-color: lightgray;
+        border: none;
+        border-radius: 3em;
+        height: 3em;
+        width: 70em;
+    }
 }
 
 .auxiliar-button-container {
@@ -113,7 +128,6 @@ svg {
 .announcement-item {
     display: flex;
     background-color:midnightblue;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
