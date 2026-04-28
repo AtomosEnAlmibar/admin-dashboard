@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 9% 11% 80% / 2fr 8fr;
+}
+
+.sideboard {
+    border: 5px solid salmon;
+    grid-row: 1 / 4;
+}
+
+.header {
+    border: 5px solid aquamarine;
+}
+
+.nav {
+    border: 5px solid palegreen;
+}
+
+.content {
+    border: 5px solid firebrick;
+}
