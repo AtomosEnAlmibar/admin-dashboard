@@ -19,18 +19,30 @@ html {
 }
 
 .sideboard {
-    border: 5px solid salmon;
     grid-row: 1 / 4;
 }
 
 .header {
-    border: 5px solid aquamarine;
 }
 
 .nav {
-    border: 5px solid palegreen;
 }
 
 .content {
     border: 5px solid firebrick;
+    display: grid;
+    grid-template: 50% 50% / 70% 30%;
+}
+
+.projects-container {
+    border: 5px solid salmon;
+    grid-row: 1 / 3;
+}
+
+.announcements-container {
+    border: 5px solid aquamarine;
+}
+
+.trending-container {
+    border: 5px solid palegreen;
 }
