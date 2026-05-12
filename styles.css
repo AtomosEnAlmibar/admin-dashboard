@@ -29,7 +29,53 @@ html {
 }
 
 .nav {
-    /* border: 5px solid forestgreen; */
+    border: 5px solid forestgreen;
+    padding: 0% 4% 0% 4%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.profile-header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid salmon;
+}
+
+.profile-header-intro {
+    border: 5px solid firebrick;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.profile-header-name {
+    border: 5px solid tan;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.nav-button-container {
+    flex-grow: 1;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    border: 3px solid indigo;
+}
+
+.action-button {
+    border: 5px solid palegreen;
 }
 
 .content {
@@ -40,26 +86,22 @@ html {
 }
 
 .projects-container {
-    border: 5px solid palegreen;
     grid-row: 1 / 3;
     display: flex;
     flex-direction: column;
 }
 
 .projects-title {
-    border: 5px solid tan;
 }
 
 .projects-content {
     flex-grow: 1;
-    border: 5px solid firebrick;
     display: grid;
     gap: 30px;
     grid-template: repeat(3, minmax(25%, 33%)) / 1fr 1fr;
 }
 
 .project-card {
-    border: 5px solid salmon;
     padding: 35px 13px 30px 25px;
     display: grid;
     grid-template-rows: 15% 55% 25%;
@@ -67,16 +109,13 @@ html {
 }
 
 .project-card-title {
-    border: 5px solid aquamarine;
 }
 
 .project-card-desc {
-    border: 3px solid teal;
 }
 
 .project-card-icon-container {
     padding-right: 20px;
-    border: 3px solid indigo;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
