@@ -25,12 +25,62 @@ html {
 }
 
 .header {
-    /* border: 5px solid firebrick; */
+    padding: 0% 12% 0% 4%;
+    border: 5px solid firebrick;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-container {
+    width: 57%;
+    border: 5px solid forestgreen;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-icon {
+    border: 5px solid salmon;
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.search-bar {
+    border: 5px solid tan;
+    flex-grow: 1;
+}
+
+.profile-container-small {
+    width: 25%;
+    border: 5px solid slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.notification-icon {
+    border: 5px solid darkcyan;
+    width: 35px;
+    height: 35px;
+}
+
+.profile-image-small {
+    border: 5px solid floralwhite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.profile-name {
+    border: 5px solid crimson;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .nav {
-    border: 5px solid forestgreen;
-    padding: 0% 4% 0% 4%;
+    padding: 0% 11% 0% 4%;
     display: flex;
     align-items: center;
 }
@@ -51,17 +101,14 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 5px solid salmon;
 }
 
 .profile-header-intro {
-    border: 5px solid firebrick;
     font-weight: 900;
     font-size: 12px;
 }
 
 .profile-header-name {
-    border: 5px solid tan;
     font-weight: 900;
     font-size: 32px;
 }
@@ -71,11 +118,10 @@ html {
     display: flex;
     gap: 40px;
     justify-content: flex-end;
-    border: 3px solid indigo;
 }
 
 .action-button {
-    border: 5px solid palegreen;
+    
 }
 
 .content {
