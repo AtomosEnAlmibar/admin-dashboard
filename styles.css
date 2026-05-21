@@ -235,7 +235,7 @@ html {
     margin-top: 18px;
     margin-bottom: 40px;
     flex-grow: 1;
-    padding: 30px 80px 25px 80px;
+    padding: 19px 80px 25px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,15 +245,25 @@ html {
     flex-basis: 25%;
 }
 
+.announcement-card:not(:last-child) {
+    border-bottom: 2px solid lightgray;
+}
+
 .announcement-header {
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .announcement-desc {
+    margin: 3px 0px 19px 0px;
+    font-size: 13px;
+    color: rgb(75, 75, 75);
     overflow: hidden;
     white-space: pre-line;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     flex: 1;
 }
 
