@@ -184,6 +184,8 @@ html {
 }
 
 .projects-content {
+    margin-top: 18px;
+    margin-right: 25px;
     flex-grow: 1;
     display: grid;
     gap: 30px;
@@ -191,6 +193,9 @@ html {
 }
 
 .project-card {
+    background: linear-gradient(90deg, rgb(221, 183, 16) 2%, #fffcfc 2%);
+    box-shadow: 2px 4px 7px 1px rgb(192, 192, 192);
+    border-radius: 15px;
     padding: 35px 13px 30px 25px;
     display: grid;
     grid-template-rows: 15% 55% 25%;
